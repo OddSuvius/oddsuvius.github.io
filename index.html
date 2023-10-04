@@ -4,10 +4,23 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Suvius' homepage</title>
-        <meta name="description: " content=" A portfolio website ">
+        <meta name="description" content=" A portfolio website">
     </head>
 
     <body>
+        <style>
+            body {
+                background-color: rgb(162, 165, 188);
+            }
+        </style>
         <h1>Hello World!</h1>
+        <script>
+            if(window.top != window.self){
+                top.location.href = document.location.href;
+            }
+            else{
+                console.log("seems fine");
+            }
+            </script>
     </body>
 </html>

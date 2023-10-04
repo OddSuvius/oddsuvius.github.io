@@ -1,6 +1,4 @@
 ignore_theme_config: true
 exclude: README.md
-http_header:
-  X-Frame-Options: "DENY"
 github:
   is_project_page: false
