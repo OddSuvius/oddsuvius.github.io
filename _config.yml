@@ -1,4 +1,4 @@
 ignore_theme_config: true
-exclude: README.md
+exclude: [README.md]
 github:
   is_project_page: false

@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-image: url('../images/main_background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+* {
+    font-family: 'Questrial', Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#about {
+    /* width: 100vw; */
+    height: 1000px;
+    background-color: rgb(208, 180, 124);
+}
+
+#about p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* radial-gradient(ellipse at top, #E5E90D, transparent),
+        radial-gradient(ellipse at bottom, #CF1DCB, transparent),
+        linear-gradient(#cee5fc, #3a72a9); */

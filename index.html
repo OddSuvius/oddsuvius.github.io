@@ -1,25 +1,37 @@
+---
+title: ""
+---
 <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Suvius' homepage</title>
+    <script src="js/the_preventer.js"></script>
     <meta name="description" content=" A portfolio website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
 
+{% include navbar.html %}
+
 <body>
-    <script>
-        if (window.self !== window.top) {
-            window.stop();
-        }
-    </script>
-    <style>
-        body {
-            background-color: rgb(162, 165, 188);
-        }
-    </style>
-    <h1>Hello World!</h1>
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <main>
+        <em style="font-size: 30px;text-align: center; white-space: pre-line; padding-bottom: 400px; margin-top: 200px;">heyo!!, I'm<h1 style="font-size: 60px; margin: 0;font-style: normal;"><strong>Suvius</strong></h1></em>
+        <section id="about"><p>Hello and welcome to my personal corner of the internet! 🌐 I'm an 18-year-old passionate about all things development, modding, making games and coding in general. Here, you'll find a glimpse into my world of creativity and problem-solving. Join me on this digital journey as I share my projects, ideas, and experiences. I've cultivated a deep appreciation for the art of creation. Explore, enjoy, and feel free to reach out! 👋💻</p></section>
+    </main>
 </body>
 
 </html>
