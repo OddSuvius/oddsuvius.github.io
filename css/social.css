@@ -1,0 +1,80 @@
+@import "background_defaults.css";
+
+/* Background for the entire body */
+body {
+    background-color: #AC7D88;
+}
+
+/* Center alignment for headers */
+h1, h3 {
+    text-align: center;
+}
+
+/* Social menu styles */
+.social-menu ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+/* Style for the ion-icons */
+.social-menu ul li ion-icon {
+    font-size: 50px; /* Adjust size as needed */
+    color: #000000; /* Default icon color */
+    transition: .5s;
+}
+
+/* Styles for each social media link */
+.social-menu ul li a {
+    position: relative;
+    display: flex; /* Changed to flex for centering content */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Hover effect for icons */
+.social-menu ul li ion-icon:hover {
+    color: #ffffff; /* Color change on hover */
+}
+
+/* Hover effect for social media links */
+.social-menu ul li a:hover {
+    transform: translateY(-10px);
+}
+
+/* Background color changes for different social media links */
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999; /* Facebook */
+}
+
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #1DA1F2; /* Twitter */
+}
+
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #cd201f; /* YouTube */
+}
+
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #0077B5; /* LinkedIn */
+}
+
+.social-menu ul li:nth-child(5) a:hover {
+    background-color: #333; /* GitHub */
+}

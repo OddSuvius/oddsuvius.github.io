@@ -88,5 +88,5 @@ nav img {
     color: #ffffff;
     text-shadow: none;
     box-shadow:none;
-    -webkit-box-reflect: below 50 linear-gradient(transparent, #0005);
+    -webkit-box-reflect: below 4px linear-gradient(transparent, #0005);
 }

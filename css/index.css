@@ -1,0 +1,52 @@
+@import "background_defaults.css";
+
+body{
+    background-image: url("../images/main_background.jpg");
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.intro-emphasis {
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    white-space: pre-line;
+}
+
+
+
+.intro-name {
+    font-size: 60px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#about {
+    margin-top: 50px;
+    min-height: 600px;
+    background-color: rgb(208, 180, 124);
+    border-radius: 50px;
+    padding: 30px;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+#about p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+
+
+/* some experiment */
+/* radial-gradient(ellipse at top, #E5E90D, transparent),
+        radial-gradient(ellipse at bottom, #CF1DCB, transparent),
+        linear-gradient(#cee5fc, #3a72a9); */
